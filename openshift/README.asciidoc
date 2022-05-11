@@ -436,6 +436,7 @@ To send a message to queue, `DEV.APP.Q.IN`, via the MQ client over TLS/MA, you c
 
 [source,bash]
 ----
+_change the `-n` flag to the correct namespace_
 oc exec -ti mq-client -n mq ./amqsputc DEV.APP.Q.IN QM
 ----
 
