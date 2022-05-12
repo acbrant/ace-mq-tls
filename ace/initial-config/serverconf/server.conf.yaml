@@ -1,5 +1,5 @@
 BrokerRegistry:
-  mqKeyRepository: '/home/aceuser/keystores/ace-server'
+  mqKeyRepository: '/home/aceuser/keystores/ibm-ace-server'
 
 Defaults:
   policyProject: "DefaultPolicies"
